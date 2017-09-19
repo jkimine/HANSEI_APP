@@ -1,4 +1,4 @@
-package hansei.purplebeen.com.hansei_app;
+package hansei.purplebeen.com.hansei_app.controller.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,7 +6,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,9 @@ import android.widget.ImageView;
 
 import java.util.List;
 
+import hansei.purplebeen.com.hansei_app.R;
 import hansei.purplebeen.com.hansei_app.beans.HomeItem;
+import hansei.purplebeen.com.hansei_app.controller.activitys.IntroduceActivity;
 
 /**
  * Created by baehyeonbin on 2017. 9. 19..

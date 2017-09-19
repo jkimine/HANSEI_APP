@@ -1,4 +1,4 @@
-package hansei.purplebeen.com.hansei_app;
+package hansei.purplebeen.com.hansei_app.controller.activitys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+import hansei.purplebeen.com.hansei_app.R;
+import hansei.purplebeen.com.hansei_app.controller.adapters.RecyclerAdapter;
 import hansei.purplebeen.com.hansei_app.beans.HomeItem;
 import hansei.purplebeen.com.hansei_app.utills.StatusBarUtill;
 

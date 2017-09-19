@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Hansei_APP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="principal_title">IT전문가로의 꿈과 역량을 키워주는 학교</string>
+    <string name="principal_main"> \n우리 한세사이버보안고등학교는 국가와 사회에 기여하는 수준 높은 인재를 배출함으로써 인류공영에 공헌함을 목적으로 하는 교육보세(敎育蕔世)를 건학이념으로 합니다.\n\n
+        본교는 균형 있는 사고와 창의력을 바탕으로 새로움을 개척하여 글로벌 시대에 부응하는 바른 인성, 전문성, 글로벌 감각을 갖춘 창의적인 IT 전문 인재를 양성하고 있습니다.\n\n
+
+ 특히 서울특별시 교육청이 선정한 서울시의 유일한 ‘보안분야 특성화고등학교’로 현장 맞춤식 교육을 실시하여, 사회에서 요구하는 역량 있는 인재 육성으로 국가 발전에 노력하고 있습니다.\n\n
+
+ 학생들이 행복한 삶을 준비할 수 있도록 자율성과 책무성을 강화한 책임 경영을 실현하여 교원은 사랑과 책임을 다하여 가르치고, 학생은 열정과 즐거움으로 배우고, 학부모는 신뢰와 협력으로 꿈을 지지하는 학교를 가꾸어 나가겠습니다.\n\n
+
+ 모든 환경이 준비된 본교에서 여러분의 꿈을 세계로 미래로 실현할 수 있도록 문을 활짝 열고 기다리겠습니다.\n\n
+
+감사합니다.</string>
 </resources>

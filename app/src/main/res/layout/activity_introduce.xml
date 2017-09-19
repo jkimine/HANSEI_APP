@@ -5,5 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context="hansei.purplebeen.com.hansei_app.IntroduceActivity">
+    tools:context="hansei.purplebeen.com.hansei_app.controller.activitys.IntroduceActivity">
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tab"
+        app:tabTextColor="@android:color/white"
+        app:tabSelectedTextColor="@android:color/white"
+        android:background="@drawable/background"/>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab"
+        android:id="@+id/viewPager"></android.support.v4.view.ViewPager>
 </RelativeLayout>

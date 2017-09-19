@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="hansei.purplebeen.com.hansei_app.MainActivity">
+    tools:context="hansei.purplebeen.com.hansei_app.controller.activitys.MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
