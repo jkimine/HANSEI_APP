@@ -1,6 +1,7 @@
 package hansei.purplebeen.com.hansei_app;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -41,6 +42,17 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         final HomeItem item = items.get(position);
         Drawable drawable = context.getDrawable(item.getImage());
         holder.imageView.setBackground(drawable);
+        holder.imageView.setOnClickListener(v -> {
+            switch(position) {
+                case 0:
+                    break;
+                case 1:
+                    context.startActivity(new Intent(context, IntroduceActivity.class));
+                    break;
+                default:
+                    break;
+            }
+        });
     }
 
     @Override
