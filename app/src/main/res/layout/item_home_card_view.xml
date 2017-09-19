@@ -13,7 +13,7 @@
         app:cardCornerRadius="3px">
         <ImageView
             android:id="@+id/imageView"
-            android:src="@drawable/card1"
+            android:background="@drawable/card1"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:layout_width="match_parent"

@@ -1,13 +1,9 @@
 package hansei.purplebeen.com.hansei_app;
 
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.Window;
-import android.view.WindowManager;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         init();
-        setRecyclerView();
         addData();
+        setRecyclerView();
     }
 
 
@@ -45,9 +41,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void addData() {
         items.add(new HomeItem(R.drawable.card1,"home"));
-        items.add(new HomeItem(R.drawable.card1,"home"));
-        items.add(new HomeItem(R.drawable.card1,"home"));
-        items.add(new HomeItem(R.drawable.card1,"home"));
+        items.add(new HomeItem(R.drawable.introduce,"introduce"));
+        items.add(new HomeItem(R.drawable.hacking,"hacking"));
+        items.add(new HomeItem(R.drawable.usn,"usn"));
+        items.add(new HomeItem(R.drawable.game,"game"));
+        items.add(new HomeItem(R.drawable.admission,"admission"));
+        items.add(new HomeItem(R.drawable.lunch,"lunch"));
     }
     @Override
     public void onBackPressed() {

@@ -5,6 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,10 +38,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        HomeItem item = items.get(position);
+        final HomeItem item = items.get(position);
         Drawable drawable = context.getDrawable(item.getImage());
         holder.imageView.setBackground(drawable);
-        holder.imageView.setScaleType(ImageView.ScaleType.FIT_XY);
     }
 
     @Override
