@@ -1,5 +1,7 @@
 package hansei.purplebeen.com.hansei_app.controller.activitys;
 
+import android.app.Activity;
+import android.app.ActivityManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -50,9 +52,13 @@ public class MainActivity extends AppCompatActivity {
         items.add(new HomeItem(R.drawable.admission,"admission"));
         items.add(new HomeItem(R.drawable.lunch,"lunch"));
     }
+
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        moveTaskToBack(true);
         finish();
+        android.os.Process.killProcess(android.os.Process.myPid());
     }
 }

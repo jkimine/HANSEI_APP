@@ -21,8 +21,7 @@
                 android:textSize="13pt"
                 android:layout_margin="15dp"
                 android:id="@+id/menu"
-                android:textAlignment="center"
-                android:text="@string/mealdummy"/>
+                android:textAlignment="center" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
