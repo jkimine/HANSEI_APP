@@ -18,25 +18,17 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-                android:text="1060kCal"
-                android:textAlignment="viewEnd"
+                android:textSize="13pt"
                 android:layout_margin="15dp"
-                android:id="@+id/calorie"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/calorie"
-                android:textSize="15pt"
-                android:layout_margin="15dp"
-                android:id="@+id/meal"
+                android:id="@+id/menu"
                 android:textAlignment="center"
                 android:text="@string/mealdummy"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/meal"
+                android:layout_below="@+id/menu"
                 android:layout_margin="15dp"
+                android:id="@+id/date"
                 android:textColor="@android:color/black"
                 android:textSize="13pt"
                 android:text="2017년 9월 19일 화요일"
