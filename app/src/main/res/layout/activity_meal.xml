@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f0f0f0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hansei.purplebeen.com.hansei_app.controller.activitys.MealActivity">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@android:color/white"
+        app:cardCornerRadius="5px">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="1060kCal"
+                android:textAlignment="viewEnd"
+                android:layout_margin="15dp"
+                android:id="@+id/calorie"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/calorie"
+                android:textSize="15pt"
+                android:layout_margin="15dp"
+                android:id="@+id/meal"
+                android:textAlignment="center"
+                android:text="@string/mealdummy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/meal"
+                android:layout_margin="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="13pt"
+                android:text="2017년 9월 19일 화요일"
+                android:textAlignment="viewEnd"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

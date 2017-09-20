@@ -16,6 +16,7 @@ import java.util.List;
 import hansei.purplebeen.com.hansei_app.R;
 import hansei.purplebeen.com.hansei_app.beans.HomeItem;
 import hansei.purplebeen.com.hansei_app.controller.activitys.IntroduceActivity;
+import hansei.purplebeen.com.hansei_app.controller.activitys.MealActivity;
 
 /**
  * Created by baehyeonbin on 2017. 9. 19..
@@ -50,6 +51,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                 case 1:
                     context.startActivity(new Intent(context, IntroduceActivity.class));
                     break;
+                case 6:
+                    context.startActivity(new Intent(context, MealActivity.class));
                 default:
                     break;
             }
