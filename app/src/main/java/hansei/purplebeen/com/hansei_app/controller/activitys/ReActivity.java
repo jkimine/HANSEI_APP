@@ -31,7 +31,7 @@ public class ReActivity extends AppCompatActivity {
     private void init() {
         lis_content = (TextView) findViewById(R.id.date);
         re_lis = (TextView) findViewById(R.id.date);
-        re_ares = (TextView) findViewById(R.id.date);
+        re_area = (TextView) findViewById(R.id.date);
         area_content = (TextView) findViewById(R.id.date);
     }
 
